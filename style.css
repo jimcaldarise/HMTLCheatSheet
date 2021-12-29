@@ -1,0 +1,27 @@
+* {
+   font-family: Verdana;
+}
+
+h1,
+h2,
+p {
+   color: darkblue;
+   text-align: center;
+}
+
+table {
+   border: 3px solid navy;
+   width: 650px;
+   margin: auto;
+   background-color: whitesmoke;
+}
+
+body {
+   background-image: url("./spikes.png");
+}
+
+.code {
+   font-family: monospace;
+   background-color: lightskyblue;
+   color: navy;
+}
