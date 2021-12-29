@@ -11,9 +11,9 @@ p {
 
 table {
    border: 3px solid navy;
-   width: 650px;
    margin: auto;
    background-color: whitesmoke;
+   border-collapse: collapse;
 }
 
 body {
@@ -24,4 +24,13 @@ body {
    font-family: monospace;
    background-color: lightskyblue;
    color: navy;
+}
+
+th, td {
+   border: 1px solid navy;
+   font-size: 14px;
+}
+
+th {
+   background-color: gainsboro;
 }
